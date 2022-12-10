@@ -1,16 +1,14 @@
 /* Add application styles & imports to this file! */
 
 h2{
-
   background-color: azure;
   color: blue;
   border: 2px dashed black;
   padding: 10px;
   margin: 10px 50px;
-
 }
 
 td{
   padding:10px;
-  border: 1px solid #336699
+  border-top: 1px solid #336699
 }

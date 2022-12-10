@@ -3,24 +3,25 @@
 <h2>{{ date }}</h2>
 <p>Advanced settings</p>
 
-<h2>Function: y = mx</h2>
+<h2>Function: y = mx ; x=2</h2>
 
 <table>
   <tr *ngFor="let index of rows">
-    <td>{{ rows[index-1] }}</td>
-    <td> x </td>
+    <td>{{ index }}</td>
+    <td>x</td>
     <td>2</td>
-    <td> = </td>
-    <td>{{ rows[index] * 2 }}</td>
+    <td>=</td>
+    <td>{{ index * 2 }}</td>
   </tr>
 </table>
 
-<p>Function: y = mx + 25</p>
+<h2>Function: y = mx + 25; x=2</h2>
 
 <table>
   <tr *ngFor="let index of rows">
-    <td>{{ rows[index] }}</td>
-    <td>{{ index }}</td>
-    <td>{{ rows[index] * index + 25 }}</td>
+    <td>x = {{ index}};</td>
+    <td>f(x)</td>
+    <td>=</td>
+    <td>{{ index * 2 + 25 }}</td>
   </tr>
 </table>
